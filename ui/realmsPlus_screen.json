@@ -1,1 +1,0 @@
-{"namespace":"realmsPlus","buy_now_toggle@realmsPlus.toggle_base":{"$default_texture":"textures/ui/button_borderless_light","$hover_texture":"textures/ui/button_borderless_lightpressednohover","$pressed_texture":"textures/ui/button_borderless_lighthover","$pressed_no_hover_texture":"textures/ui/button_borderless_lightpressed","$default_checked_text_color":[1,1,1]}}

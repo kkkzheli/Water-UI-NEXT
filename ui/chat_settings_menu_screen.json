@@ -1,1 +1,0 @@
-{"namespace":"chat_settings","chat_setting_in":{"anim_type":"size","from":[0,0],"to":[300,200],"duration":1,"easing":"out_cubic"},"chat_setting_scrolling_panel@common.scrolling_panel":{"size":"@chat_settings.chat_setting_in"},"chat_settings_popup@popup_dialog.form_fit_modal_dialog_popup":{"$modal_background":"common.empty_panel"}}

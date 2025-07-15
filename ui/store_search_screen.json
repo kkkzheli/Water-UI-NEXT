@@ -1,1 +1,0 @@
-{"namespace":"store_search","store_search_screen@common_store.store_base_screen":{"$screen_animations":["@common.exit_push","@common.exit_pop","@common.entrance_push","@common.entrance_pop"],"$screen_bg_content":"settings_common.settings_screen_bg"}}

@@ -1,1 +1,0 @@
-{"namespace":"third_party_store","third_party_store_screen@common.base_screen":{"$screen_animations":["@common.exit_push","@common.exit_pop","@common.entrance_push","@common.entrance_pop"],"$screen_bg_content":"settings_common.settings_screen_bg"}}

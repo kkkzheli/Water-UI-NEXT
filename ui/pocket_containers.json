@@ -1,1 +1,0 @@
-{"namespace":"pocket_containers","inventory_panel":{"type":"panel","size":["100%","50%"],"anchor_from":"left_middle","anchor_to":"top_left","controls":[{"water_kill_pocket@common.inventory_panel":{}}]},"panel/inventory":{"$pane_collection":"inventory_items"},"inventory_grid":{"grid_item_template":"common.grid_item_for_inventory"}}

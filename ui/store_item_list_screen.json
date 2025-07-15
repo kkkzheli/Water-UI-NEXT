@@ -1,1 +1,0 @@
-{"namespace":"store_item_list","store_offer_grid_item/frame/offer_price_panel/offer_prompt_panel/offer_prompt":{"font_type":"$WaterFontType"},"store_item_list_screen@common_store.store_base_screen":{"variables":[],"$screen_animations":["@common.exit_push","@common.exit_pop","@common.entrance_push","@common.entrance_pop"],"$screen_bg_content":"settings_common.settings_screen_bg"}}

@@ -1,4 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-my_script my_language
-linguist-language=JSON
+*.json linguist-detectable
+* linguist-language=JSON

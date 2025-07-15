@@ -31,8 +31,7 @@ This resource pack thoughtfully includes customization features that allow you t
 How to use:
 
 1. 搜索文件_global_variables.json
-
-Locate the file _global_variables.json
+1. Locate the file _global_variables.json
 
 2. 打开后看注释里的提示修改相应内容, 特别注意字体修改要保证输入的文件名准确无误, 注意大小写, 不能包含后缀！
 2. Open it and follow the instructions in the comments to modify the relevant content. Be especially careful when changing the font: make sure the file name is exact, case-sensitive, and must not include the file extension!

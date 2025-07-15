@@ -1,0 +1,20 @@
+﻿## Water UI NEXT | kkkzheli | English (UK)
+
+## Player Position (Vanilla)
+map.position=X: %s   Y: %s   Z: %s	#
+
+## Settings
+waterui.settings.qa.button=Water Q&A
+waterui.settings.music.button=Music Player
+waterui.settings.infolist.button=UI Information
+
+## Potion Recipe
+waterui.recipe.potion.emptydrink=Drinkable Potion
+waterui.recipe.potion.emptysplash=Splash Potion
+waterui.recipe.potion.emptylingering=Lingering Potion
+waterui.recipe.potion.majority=Majority Potion
+waterui.recipe.potion.durability=Durability Boost
+waterui.recipe.potion.boost=Level Boost
+
+## Welcome
+waterui.hud.welcome=Dear user, thanks for using Water UI NEXT!

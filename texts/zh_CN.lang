@@ -1,0 +1,42 @@
+﻿## Water UI NEXT | kkkzheli | 简体中文
+
+## Player Position (Vanilla)
+map.position=X: %s   Y: %s   Z: %s	#
+
+## Settings
+waterui.settings.qa.button=常见问题
+waterui.settings.music.button=音乐播放器
+waterui.settings.infolist.button=UI包详情
+
+## Potion Recipe
+waterui.recipe.potion.emptydrink=饮用型药水
+waterui.recipe.potion.emptysplash=喷溅型药水
+waterui.recipe.potion.emptylingering=滞留型药水
+waterui.recipe.potion.majority=大多数药水
+waterui.recipe.potion.durability=提升药水时长
+waterui.recipe.potion.boost=提升药效
+
+## Welcome
+waterui.hud.welcome=尊敬的用户您好, 感谢使用 Water UI NEXT!
+
+## Force Containers' name to fit English
+tile.chest.name=Chest	#
+container.crafting=Crafting	#
+container.repair=Repair & Name	#
+container.furnace=Furnace	#
+tile.enchanting_table.name=Enchantment Table	#
+tile.loom.name=Loom	#
+container.dispenser=Dispenser	#
+container.dropper=Dropper	#
+container.hopper=Item Hopper	#
+container.stonecutter=Stonecutter	#
+tile.ender_chest.name=Ender Chest	#
+tile.shulkerBox.name=Shulker Box	#
+tile.cartography_table.name=Cartography Table	#
+container.smithing_table.upgrade=Upgrade Gear	#
+tile.blast_furnace.name=Blast Furnace	#
+tile.smoker.name=Smoker	#
+container.brewing=Brewing Stand	#
+container.repairAndDisenchant=Repair & Disenchant	#
+container.barrel=Barrel	#
+container.chestDouble=Large Chest	#

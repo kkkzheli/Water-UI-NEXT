@@ -1,0 +1,107 @@
+{
+    "namespace": "music_timer",
+    //A short way to create the music timer by quoting water timer. However, I don't know how to hide it without pressing the buttons when the music comes to an end. I'm waiting for someone to help me cope with the problem. --kkkzheli June 5th, 2025.
+    "water_music_timer_all@common.horizontal_stack_panel": {
+        "layer": 999,
+        "offset": [
+            -9.5,
+            0
+        ],
+        "$timer_font_size": "normal",
+        "animation_reset_name": "('stop_'+$music_name)",
+        "$timer_reset_name": "('play_'+$music_name)",//To awaken water timer.
+        //These animations are used to control the whole panel, instead of water timer.
+        "anims": [
+            "@music_timer.music_timer_show",
+            "@music_timer.music_timer_wait"
+        ],
+        "clips_children": true,
+        //To quote water timer.
+        "controls": [
+            {
+                "0~5*10m@timer.minute_tens_all": {
+                    "size": [
+                        5,
+                        10
+                    ]
+                }
+            },
+            {
+                "0~9m@timer.minute_ones_all": {
+                    "size": [
+                        5,
+                        10
+                    ]
+                }
+            },
+            {
+                "space1@timer.timer_space": {
+                    "size": [
+                        2,
+                        10
+                    ]
+                }
+            },
+            {
+                "0~5*10s@timer.second_tens_all": {
+                    "size": [
+                        5,
+                        10
+                    ]
+                }
+            },
+            {
+                "0~9s@timer.second_ones_all": {
+                    "size": [
+                        5,
+                        10
+                    ]
+                }
+            }
+        ]
+    },
+    "music_timer_anim_template": {
+        "anim_type": "size",
+        "from": "$size",
+        "to": "$size"
+    },
+    //These animations are used to show the music timer when the buttons are pressed.
+    "music_timer_show@music_timer.music_timer_anim_template": {
+        "$size": [
+            22,
+            10
+        ],
+        "duration": 0,
+        "play_event": "('play_'+$music_name)"
+    },
+    "music_timer_wait": {
+        "anim_type": "wait",
+        "duration": 0,
+        "end_event": "('play_'+$music_name)",
+        "next": "@music_timer.music_timer_reset"
+    },
+    "music_timer_reset@music_timer.music_timer_anim_template": {
+        "$size": [
+            0,
+            0
+        ],
+        "duration": 0,
+        "reset_event": "('play_'+$music_name)"
+    },
+    //These animations are used to show the text "0:00" when the buttons aren't pressed.
+    "zero_timer_show@music_timer.music_timer_show": {
+        "$size": [
+            0,
+            0
+        ]
+    },
+    "zero_timer_wait@music_timer.music_timer_wait": {
+        "next": "@music_timer.zero_timer_reset"
+    },
+    "zero_timer_reset@music_timer.music_timer_reset": {
+        "$size": [
+            22,
+            10
+        ]
+    }
+}

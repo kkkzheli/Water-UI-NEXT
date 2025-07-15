@@ -1,0 +1,1 @@
+{"namespace":"gift_promo","store_promotion_screen@common_store.store_base_screen":{"$screen_animations":["@common.exit_push","@common.exit_pop","@common.entrance_push","@common.entrance_pop"],"$screen_bg_content":"settings_common.settings_screen_bg"},"promo_item_action_button/markdown/price_markdown_panel/offer_price":{"font_type":"$WaterFontType"}}

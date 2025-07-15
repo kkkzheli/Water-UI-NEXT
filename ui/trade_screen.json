@@ -1,0 +1,1 @@
+{"namespace":"trade","trade_screen@common.inventory_screen_common":{"close_on_player_hurt":false,"variables":[{"requires":"$desktop_screen","$screen_content":"trade.trade_panel"},{"requires":"$pocket_screen","$screen_content":"trade.trade_panel"}]}}

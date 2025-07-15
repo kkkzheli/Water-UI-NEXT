@@ -1,0 +1,1 @@
+{"namespace":"sign","sign_screen@common.base_screen":{"$screen_content":"sign.sign_screen_content","$close_on_player_hurt|default":false,"$screen_bg_content":"flip_book.gradual_blur_background"}}
